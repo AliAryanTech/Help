@@ -34,7 +34,7 @@ module.exports = {
 			if (check.size < 50)
 				return await msg.reply("The minimum requirement for group members must be more than 50 people.");
 		} catch {
-			return msg.reply("Invalid invite url.");
+			return msg.reply("Check if link is reset/invalid or I had been removed from the group before!");
 		}
 
 		// Trying to join group with given invite code
